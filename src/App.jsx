@@ -1,14 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import {About} from './About.jsx'
+
+function Nav() {
+  return(
+    <nav>
+      <ul id="nav">
+        <li><a href=""></a>Home</li>
+        <li><a href=""></a>Currículo</li>
+        <li><a href=""></a>Projetos</li>
+      </ul>
+    </nav>
+  );
+}
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+    return (
     <>
-      <h1>Página em Construção</h1>
+      <Nav></Nav>
+      <About></About>
     </>
   )
 }

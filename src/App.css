@@ -7,5 +7,19 @@
 
 body {
   background-color: #1D1B25;
+  color: #ffffff;
+  font-family: "Ubuntu", sans;
+  display: flex;
+}
+
+#nav {
+  flex-direction: row;
+}
+
+ul {
+  flex-direction: column;
+}
+
+a {
   color: #FF238E;
 }
