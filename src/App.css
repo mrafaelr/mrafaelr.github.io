@@ -11,15 +11,3 @@ body {
   font-family: "Ubuntu", sans;
   display: flex;
 }
-
-#nav {
-  flex-direction: row;
-}
-
-ul {
-  flex-direction: column;
-}
-
-a {
-  color: #FF238E;
-}

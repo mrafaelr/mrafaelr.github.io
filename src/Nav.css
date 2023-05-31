@@ -1,0 +1,10 @@
+#nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+    
+  #nav>ul>li {
+    width: 100vw;
+    font-size: 16pt;
+  }

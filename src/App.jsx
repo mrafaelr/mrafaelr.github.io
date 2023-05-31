@@ -1,26 +1,13 @@
 import './App.css'
-import {About} from './About.jsx'
-
-function Nav() {
-  return(
-    <nav>
-      <ul id="nav">
-        <li><a href=""></a>Home</li>
-        <li><a href=""></a>Currículo</li>
-        <li><a href=""></a>Projetos</li>
-      </ul>
-    </nav>
-  );
-}
-
+//import About from './About.jsx'
+import Nav from './Nav.jsx'
 
 function App() {
     return (
-    <>
+    <div id="main-content">
       <Nav></Nav>
-      <About></About>
-    </>
-  )
+    </div>
+    );
 }
 
 export default App
