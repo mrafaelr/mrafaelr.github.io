@@ -1,10 +1,36 @@
+nav {
+  position: fixed;
+  top: 0px;
+  left: 8.3%;
+  width: 83%;
+}
+
 #nav {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-  }
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
     
-  #nav>ul>li {
-    width: 100vw;
-    font-size: 16pt;
-  }
+nav>ul>li {
+  font-size: 12pt;
+  font-weight: bold;
+  margin-left: 0px;
+  margin-top: 5px;
+  padding-left: 0px;
+  margin-right: 2.5%;
+  text-align: left;
+ }
+
+nav>ul>li>a {
+  color: #ffffff;
+}
+
+nav>ul>li>a:hover {
+  color: #ffffff;
+}
+
+nav>ul>li>#active {
+  color: #FF238E;
+ }

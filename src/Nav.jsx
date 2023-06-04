@@ -4,10 +4,11 @@ export default function Nav() {
     return(
       <nav>
         <ul id="nav">
-          <li><a href=""></a>Home</li>
-          <li><a href=""></a>Currículo</li>
-          <li><a href=""></a>Projetos</li>
+          <li><a href="" id="active">Home</a></li>
+          <li><a href="">Currículo</a></li>
+          <li><a href="">Projetos</a></li>
         </ul>
+
       </nav>
     );
   }
