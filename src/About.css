@@ -1,13 +1,14 @@
 #headshot {
-    width: 40%;
+    width: 30%;
     height: auto;
-    margin-right: 25%;
-  }
+    margin-right: 15%;
+}
 
 #about-content {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 #bio>h1 {
@@ -20,7 +21,17 @@
 
 #bio {
     font-size: 16pt;
-    border: 1px solid white;
     width: 41%;
 }
 
+#bio>p>a {
+    color: #FF238E;
+}
+
+#bio>p>a:hover {
+    color: #FF238E;
+}
+
+#name {
+    color: #FF238E;
+}
