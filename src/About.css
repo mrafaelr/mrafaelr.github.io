@@ -1,0 +1,26 @@
+#headshot {
+    width: 40%;
+    height: auto;
+    margin-right: 25%;
+  }
+
+#about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#bio>h1 {
+    font-size: 37pt;
+}
+
+#bio>h2 {
+    font-size: 22pt;
+}
+
+#bio {
+    font-size: 16pt;
+    border: 1px solid white;
+    width: 41%;
+}
+

@@ -1,11 +1,23 @@
 import './App.css'
 //import About from './About.jsx'
 import Nav from './Nav.jsx'
+import About from './About.jsx'
+
+/*
+function Decoration() {
+  return(
+    <>
+      <div id="ball1"></div>
+    </>
+  );
+}
+*/
 
 function App() {
     return (
-    <div id="main-content">
+    <div>
       <Nav></Nav>
+      <About></About>
     </div>
     );
 }

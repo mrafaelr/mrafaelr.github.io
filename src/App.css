@@ -5,9 +5,17 @@
   text-align: center;
 }
 
+#ball1 {
+  width: 550px;
+  height: 550px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
 body {
   background-color: #1D1B25;
   color: #ffffff;
   font-family: "Ubuntu", sans;
   display: flex;
 }
+
