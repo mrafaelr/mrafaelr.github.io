@@ -10,6 +10,7 @@
   height: 550px;
   border-radius: 100%;
   border: 1px solid white;
+  z-index: -1;
 }
 
 body {
@@ -19,3 +20,8 @@ body {
   display: flex;
 }
 
+hr {
+  background-color: #FF238E;
+  height: 1px;
+  border: none;
+}

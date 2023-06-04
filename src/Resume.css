@@ -10,6 +10,14 @@
     font-size: 2em;
 }
 
-#decorative-dash {
+.resume-column {
+    text-align: left;
+}
+
+.resume-column>ul>li {
+    list-style-type: none;
+}
+
+.decorative-pink {
     color: #FF238E;
 }

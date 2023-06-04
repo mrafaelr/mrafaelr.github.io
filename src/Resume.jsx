@@ -8,47 +8,47 @@ export default function Resume() {
             <h1>Curriculum vitae</h1>
             <div id="resume">
                 <div className="resume-column">
-                    <h2><span id="decorative-dash">-</span> Educação <span id="decorative-dash">-</span></h2>
+                    <h2><span className="decorative-pink">-</span> Educação <span className="decorative-pink">-</span></h2>
                     <ul>
                         <li>
                             <b>Bacharelado em ciência da computação</b>,<br /> 
-                            Universidade de Brasília.
+                            <i>Universidade de Brasília</i>.
                         </li>
                     </ul>
-                    <h2><span id="decorative-dash">-</span> Experiência profissional <span id="decorative-dash">-</span></h2>
+                    <h2><span className="decorative-pink">-</span> Experiência profissional <span className="decorative-pink">-</span></h2>
                     <ul>
                         <li>
-                            02/22 a 02/23 <br /> 
-                            Cientista de dados, Triágil, estágio. <br /> 
+                            <span className="decorative-pink">02/22</span> a <span className="decorative-pink">02/23</span> <br /> 
+                            <b>Cientista de dados</b>, <i>Triágil</i>, estágio. <br /> 
                             Análise e limpeza de dados relacionados à saúde, <br />
                             modelagem de sistemas de machine learning, <br />
                             implementação e manutenção de pipelines de <br />
                             processmento de dados. <br />
-                        </li>
+                        </li><br />
                         <li>
-                            06/21 a 11/21 <br />
-                            Desenvolvedor web full stack, Trion 3D, estágio. <br />
-                            Desenvolveu sistemas web com React, Node.js, <br />
+                        <span className="decorative-pink">06/21</span> a <span className="decorative-pink">11/21</span> <br />
+                            <b>Desenvolvedor web full stack</b>, <i>Trion 3D</i>, estágio. <br />
+                            Desenvolvimento de sistemas web com React, Node.js, <br />
                             Express,  PostgreSql, e AWS. <br />
-                        </li>
+                        </li><br />
                         <li>
-                            02/16 a 12/16 <br />
-                            Desenvolvedor web full stack, Higgs Boson, estágio. <br />
-                            Desenvolveu plataformas de e-commerce utilizando <br />
+                        <span className="decorative-pink">02/16</span> a <span className="decorative-pink">12/16</span> <br />
+                            <b>Desenvolvedor web full stack</b>, <i>Higgs Boson</i>, estágio. <br />
+                            Desenvolvimento de plataformas de e-commerce utilizando <br />
                             PHP, Laravel, MySql e Open Cart e Bootstrap. <br />
                         </li>
                     </ul>
                 </div>
                 <div className="resume-column">
-                    <h2><span id="decorative-dash">-</span> Habilidades <span id="decorative-dash">-</span></h2>
+                    <h2><span className="decorative-pink">-</span> Habilidades <span className="decorative-pink">-</span></h2>
                     <ul>
-                        <li>Linguagens: Python, JavaScript, TypeScript.</li>
-                        <li>Ferramentas: Jupyter/IPython, Git, PostgreSQL, Jest, Cypress.</li>
-                        <li>Bibliotecas: React, Jest, Cypress, Numpy, Pandas, Seaborn,<br /> SkLearn, TensorFlow/Keras.</li>
-                        <li>Práticas: Clean Code, Scrum, TDD, Design Responsivo.</li>
-                        <li>Idiomas: Inglês, espanhol e francês fluente.</li>
+                        <li><b>Linguagens</b>: Python, JavaScript, TypeScript.</li><br />
+                        <li><b>Ferramentas</b>: Jupyter/IPython, Git, PostgreSQL, Jest, Cypress.</li><br />
+                        <li><b>Bibliotecas</b>: React, Jest, Cypress, Numpy, Pandas, Seaborn,<br /> SkLearn, TensorFlow/Keras.</li><br />
+                        <li><b>Práticas</b>: Clean Code, Scrum, TDD, Design Responsivo.</li><br />
+                        <li><b>Idiomas</b>: Inglês, espanhol e francês fluente.</li><br />
                     </ul>
-                    <h2><span id="decorative-dash">-</span> Projetos <span id="decorative-dash">-</span></h2>
+                    <h2><span className="decorative-pink">-</span> Projetos <span className="decorative-pink">-</span></h2>
                 </div>
             </div>
         </section>

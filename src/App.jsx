@@ -18,7 +18,9 @@ function App() {
     <div>
       <Nav></Nav>
       <About></About>
+      <hr></hr>
       <Resume></Resume>
+      <hr></hr>
     </div>
     );
 }
