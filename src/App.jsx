@@ -1,6 +1,7 @@
 import './App.css'
 import Nav from './Nav.jsx'
 import About from './About.jsx'
+import Resume from './Resume.jsx'
 
 /*
 function Decoration() {
@@ -17,6 +18,7 @@ function App() {
     <div>
       <Nav></Nav>
       <About></About>
+      <Resume></Resume>
     </div>
     );
 }

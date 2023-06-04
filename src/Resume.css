@@ -1,0 +1,15 @@
+#resume {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: left;
+    align-items: center;
+}
+
+.resume-column>h2 {
+    font-size: 2em;
+}
+
+#decorative-dash {
+    color: #FF238E;
+}
