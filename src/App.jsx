@@ -1,5 +1,4 @@
 import './App.css'
-//import About from './About.jsx'
 import Nav from './Nav.jsx'
 import About from './About.jsx'
 

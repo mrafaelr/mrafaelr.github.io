@@ -15,9 +15,9 @@ function Bio() {
   
 export default function About() {
     return(
-      <div id="about-content">
-        <img src="./public/rock.webp" alt="" id="headshot" />
+      <section id="about-content">
+        <img src="./src/assets/rock.webp" alt="" id="headshot" />
         <Bio />
-      </ div>
+      </section>
     );
   }

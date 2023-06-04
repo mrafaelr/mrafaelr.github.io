@@ -1,27 +1,27 @@
 #headshot {
     width: 30%;
     height: auto;
-    margin-right: 15%;
 }
 
 #about-content {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    height: 91vh;
 }
 
 #bio>h1 {
-    font-size: 37pt;
+    font-size: 42pt;
 }
 
 #bio>h2 {
-    font-size: 22pt;
+    font-size: 28pt;
 }
 
 #bio {
     font-size: 16pt;
-    width: 41%;
+    width: 42vw;
 }
 
 #bio>p>a {

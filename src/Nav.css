@@ -1,15 +1,18 @@
 header {
   position: fixed;
   top: 0px;
-  left: 8.3%;
-  width: 83%;
+  left: 8.3vw;
+  width: 83vw;
+  margin: 0;
   justify-content: space-between;
+  background-color: #1D1B25;
 }
 
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 nav>ul {
@@ -25,6 +28,7 @@ nav>ul>li {
   font-weight: bold;
   margin-left: 0px;
   margin-top: 5px;
+  margin-bottom: 5px;
   padding-left: 0px;
   margin-right: 2.5vw;
   text-align: left;
