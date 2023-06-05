@@ -19,7 +19,7 @@ export default function Resume() {
                     <ul>
                         <li>
                             <span className="decorative-pink">02/22</span> a <span className="decorative-pink">02/23</span> <br /> 
-                            <b>Cientista de dados</b>, <i>Triágil</i>, estágio. <br /> 
+                            <b>Cientista de dados</b>, <i>Triágil</i>, estágio. <br /><br /> 
                             Desempenhei um papel fundamental na análise e processamento de <br />
                             dados relacionados à saúde, utilizando técnicas avançadas de 
                             modelagem de sistemas de machine learning. Fui responsável pela 
@@ -32,7 +32,7 @@ export default function Resume() {
                         </li><br />
                         <li>
                         <span className="decorative-pink">06/21</span> a <span className="decorative-pink">11/21</span> <br />
-                            <b>Desenvolvedor web full stack</b>, <i>Trion 3D</i>, estágio. <br />
+                            <b>Desenvolvedor web full stack</b>, <i>Trion 3D</i>, estágio. <br /><br />
                             Exerci o cargo de desenvolvedor, onde meu foco principal 
                             foi o desenvolvimento de sistemas web, mobile e de gestão 
                             de informação organizacional. Utilizei tecnologias avançadas, 
@@ -45,7 +45,7 @@ export default function Resume() {
                         </li><br />
                         <li>
                         <span className="decorative-pink">02/16</span> a <span className="decorative-pink">12/16</span> <br />
-                            <b>Desenvolvedor web full stack</b>, <i>Higgs Boson</i>, estágio. <br />
+                            <b>Desenvolvedor web full stack</b>, <i>Higgs Boson</i>, estágio. <br /><br />
                             Desenvolvi plataformas de e-commerce com foco em usabilidade e 
                             funcionalidade, utilizando PHP, Laravel, MySql, Open Cart e Bootstrap. 
                             Minha expertise na construção dessas soluções resultou em interfaces 
