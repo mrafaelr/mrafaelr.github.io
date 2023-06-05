@@ -13,6 +13,16 @@
     padding-top: 15vh;
 }
 
+@media (max-width: 767px) {
+    #about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20vh;
+        padding-top: 15vh;
+    }
+}
+
 #bio>h1 {
     font-size: 42pt;
 }
