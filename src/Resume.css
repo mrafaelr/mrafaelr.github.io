@@ -4,6 +4,7 @@
     justify-content: space-between;
     justify-items: left;
     align-items: center;
+    padding-bottom: 5vw;
 }
 
 .resume-column>h2 {

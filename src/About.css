@@ -1,6 +1,7 @@
 #headshot {
     width: 30%;
     height: auto;
+    border-radius: 15px;
 }
 
 #about-content {
@@ -8,7 +9,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 91vh;
+    padding-bottom: 20vh;
+    padding-top: 15vh;
 }
 
 #bio>h1 {
@@ -26,11 +28,21 @@
 
 #bio>p>a {
     color: #FF238E;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
 }
 
 #bio>p>a:hover {
-    color: #FF238E;
-}
+    color: #ffffff;
+    background-color: #FF238E;
+    border-radius: 5px;
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vh;
+    padding-right: 1vh;}
 
 #name {
     color: #FF238E;

@@ -3,7 +3,7 @@ import Nav from './Nav.jsx'
 import About from './About.jsx'
 import Resume from './Resume.jsx'
 
-/*
+
 function Decoration() {
   return(
     <>
@@ -11,16 +11,17 @@ function Decoration() {
     </>
   );
 }
-*/
+
 
 function App() {
     return (
     <div>
+      <Decoration />
       <Nav></Nav>
       <About></About>
-      <hr></hr>
+      <hr />
       <Resume></Resume>
-      <hr></hr>
+      <hr />
     </div>
     );
 }
