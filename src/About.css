@@ -1,5 +1,5 @@
 #headshot {
-    width: 30%;
+    width: 25vw;
     height: auto;
     border-radius: 15px;
 }
@@ -13,26 +13,16 @@
     padding-top: 15vh;
 }
 
-@media (max-width: 767px) {
-    #about-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-bottom: 20vh;
-        padding-top: 15vh;
-    }
-}
-
 #bio>h1 {
-    font-size: 42pt;
+    font-size: 2.5em;
 }
 
 #bio>h2 {
-    font-size: 28pt;
+    font-size: 1.5empt;
 }
 
 #bio {
-    font-size: 16pt;
+    font-size: 1.2em;
     width: 42vw;
 }
 
@@ -56,4 +46,48 @@
 
 #name {
     color: #FF238E;
+}
+
+@media (max-width: 720px) {
+    #headshot {
+        width: 50vw;
+        height: auto;
+        border-radius: 15px;
+        margin-bottom: 3vh;
+    }
+    
+    #about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 5vh;
+        padding-top: 15vh;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    #bio>h1 {
+        font-size: 2em;
+        width: 80vw;
+        text-align: revert; 
+        text-justify: revert;
+        
+    }
+    
+    #bio>h2 {
+        font-size: 1.5empt;
+        width: 80vw;
+        text-align: revert; 
+        text-justify:revert;
+    }
+    
+    #bio {
+        font-size: 1.2em;
+        width: 80vw;
+    }
+
+    #bio-paragraph {
+        text-align: justify;
+        text-justify: inter-word;
+    }
 }

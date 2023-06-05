@@ -6,8 +6,8 @@ function Bio() {
       <div id="bio">
         <h1>Olá! Eu sou <span id="name">Rafael</span>,</h1>
         <h2>cientista da computação e desenvolvedor.</h2>
-        <p>
-          Como cientista da computação e desenvolvedor de software, sou apaixonado por 
+        <p id="bio-paragraph">
+          Sou apaixonado por 
           explorar as fronteiras da tecnologia e criar soluções inovadoras. Minha paixão 
           por animais, especialmente gatos, reflete minha natureza curiosa e atenciosa, 
           características que acredito serem essenciais tanto na minha vida profissional 

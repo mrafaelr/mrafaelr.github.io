@@ -15,14 +15,14 @@ function Decoration() {
 
 function App() {
     return (
-    <div>
+    <>
       <Decoration />
       <Nav></Nav>
       <About></About>
       <hr />
       <Resume></Resume>
       <hr />
-    </div>
+    </>
     );
 }
 
