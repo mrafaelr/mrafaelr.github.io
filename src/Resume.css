@@ -27,8 +27,8 @@
 
 .cv-subheading>span {
     display: inline-block;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
 }
 
 .resume-column>h2 {
@@ -53,6 +53,8 @@
 
 .decorative-pink {
     color: #FF238E;
+    margin: 0;
+    padding: 0;
 }
 
 @media (max-width: 720px) {
@@ -65,7 +67,7 @@
         padding-bottom: 5vw;
         width: 80vw;
     }
-    
+
     .cv-subheading {
         display: flex;
         flex-direction: row;
@@ -87,7 +89,7 @@
     
     .resume-column {
         text-align: center;
-        width: 80vw;   
+        width: 80vw; 
     }
     
     .resume-column>ul {
@@ -97,7 +99,8 @@
     .resume-column>ul>li {
         list-style-type: none;
         text-align: justify;
-        text-justify: inter-word;
+        text-justify: newspaper;
+        hyphens: auto;
     }
     
     .decorative-pink {
