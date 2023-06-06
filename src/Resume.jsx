@@ -5,7 +5,7 @@ import "./Resume.css"
 export default function Resume() {
     return (
         <section >
-            <h1>Curriculum vitae</h1>
+            <h1 id="cv-title">Curriculum vitae</h1>
             <div id="resume">
                 <div className="resume-column">
                     <h2><span className="decorative-pink">-</span> Educação <span className="decorative-pink">-</span></h2>
@@ -15,13 +15,12 @@ export default function Resume() {
                             <i>Universidade de Brasília</i>.
                         </li>
                     </ul>
-                    <h2><span className="decorative-pink">-</span> Experiência profissional <span className="decorative-pink">-</span></h2>
+                    <h2 className="cv-subheading"><div className="decorative-pink">-</div> <span id="exp">Experiência profissional</span> <div className="decorative-pink">-</div></h2>
                     <ul>
                         <li>
                             <span className="decorative-pink">02/22</span> a <span className="decorative-pink">02/23</span> <br /> 
                             <b>Cientista de dados</b>, <i>Triágil</i>, estágio. <br /><br /> 
-                            Desempenhei um papel fundamental na análise e processamento de <br />
-                            dados relacionados à saúde, utilizando técnicas avançadas de 
+                            Desempenhei um papel fundamental na análise e processamento de dados relacionados à saúde, utilizando técnicas avançadas de 
                             modelagem de sistemas de machine learning. Fui responsável pela 
                             implementação e manutenção de eficientes pipelines de processamento 
                             de dados em Python, garantindo a qualidade e integridade dos dados 
@@ -71,7 +70,7 @@ export default function Resume() {
                     <h2><span className="decorative-pink">-</span> Projetos <span className="decorative-pink">-</span></h2>
                     <ul>
                         <li>
-                            <b>Verificação formal de sistemas de comando e controle</b> <br />
+                            <b>Verificação formal de sistemas de comando e controle</b>, <i>UnB/EB</i> <br />
                             Participei como Pesquisador assistente ativamente da formalização 
                             matemática e produção de certificados de correção para sistemas de 
                             comando e controle do Exército Brasileiro, utilizando a verificação 

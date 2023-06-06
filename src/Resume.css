@@ -3,8 +3,12 @@
     flex-direction: row;
     justify-content: space-between;
     justify-items: left;
-    align-items: center;
+    align-items: top;
     padding-bottom: 5vw;
+}
+
+#cv-title {
+    margin-top: 15vh;
 }
 
 .resume-column>h2 {
@@ -13,10 +17,14 @@
 
 .resume-column {
     text-align: left;
+    width: 35vw;
+    margin-top: 10vh;
 }
 
 .resume-column>ul>li {
     list-style-type: none;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .decorative-pink {
@@ -34,6 +42,20 @@
         width: 80vw;
     }
     
+    .cv-subheading {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        padding-left: 0;
+        padding-right:0;
+    }
+
+    .cv-subheading>span {
+        width: 45vw;
+    }
+
     .resume-column>h2 {
         font-size: 1.6em;
         margin: 0;
