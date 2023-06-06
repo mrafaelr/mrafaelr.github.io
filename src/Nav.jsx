@@ -18,7 +18,6 @@ export default function Nav() {
             </a>
           </div>
         </nav>
-        <hr />
     </header>
     );
   }
