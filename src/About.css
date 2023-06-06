@@ -27,6 +27,11 @@
     width: 42vw;
 }
 
+#bio-paragraph {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 #bio>p>a {
     color: #FF238E;
     padding-top: 1vh;

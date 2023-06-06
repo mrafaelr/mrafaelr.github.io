@@ -4,6 +4,7 @@ import './About.css'
 function Bio() {
     return(
       <div id="bio">
+        
         <h1>Olá! Eu sou <span id="name">Rafael</span>,</h1>
         <h2>cientista da computação e desenvolvedor.</h2>
         <p id="bio-paragraph">
@@ -28,6 +29,7 @@ function Bio() {
 export default function About() {
     return(
       <section id="about-content">
+        <hr />
         <img src="./src/assets/pic.png" alt="" id="headshot" />
         <Bio />
       </section>
