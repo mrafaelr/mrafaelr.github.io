@@ -5,7 +5,7 @@ export default function Nav() {
       <header>
         <nav>
           <ul id="nav">
-            <li><a href="bio" id="">Home</a></li>
+            <li><a href="#bio" id="">Home</a></li>
             <li><a href="#resume">Currículo</a></li>
             <li><a href="">Projetos</a></li>
           </ul>
