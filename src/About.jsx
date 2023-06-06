@@ -30,7 +30,7 @@ export default function About() {
     return(
       <section id="about-content">
         <hr />
-        <img src="./src/assets/pic.png" alt="" id="headshot" />
+        <img src="./pic.png" alt="" id="headshot" />
         <Bio />
       </section>
     );
