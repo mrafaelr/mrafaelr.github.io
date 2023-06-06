@@ -29,7 +29,6 @@ function Bio() {
 export default function About() {
     return(
       <section id="about-content">
-        <hr />
         <img src="./pic.webp" alt="" id="headshot" />
         <Bio />
       </section>
