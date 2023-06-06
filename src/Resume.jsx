@@ -35,7 +35,7 @@ export default function Resume() {
                             Exerci o cargo de desenvolvedor, onde meu foco principal 
                             foi o desenvolvimento de sistemas web, mobile e de gestão 
                             de informação organizacional. Utilizei tecnologias avançadas, 
-                            como React, Reactive Native, PostgreSql, Express, Node.js e AWS, 
+                            como React, React Native, PostgreSql, Express, Node.js e AWS, 
                             para criar soluções inovadoras e escaláveis. Minha contribuição 
                             abrangeu desde a concepção e design até a implementação dos sistemas, 
                             garantindo a entrega de produtos de alta qualidade. Ao enfrentar 
@@ -60,12 +60,12 @@ export default function Resume() {
                 </div>
                 <div className="resume-column">
                     <h2><span className="decorative-pink">-</span> Habilidades <span className="decorative-pink">-</span></h2>
-                    <ul>
+                    <ul id="skills">
                         <li><b>Linguagens</b>: Python, JavaScript, TypeScript.</li><br />
                         <li><b>Ferramentas</b>: Jupyter/IPython, Git, PostgreSQL, Jest, Cypress.</li><br />
                         <li><b>Bibliotecas</b>: React, Jest, Cypress, Numpy, Pandas, Seaborn,<br /> SkLearn, TensorFlow/Keras.</li><br />
                         <li><b>Práticas</b>: Clean Code, Scrum, TDD, Design Responsivo.</li><br />
-                        <li><b>Idiomas</b>: Inglês, espanhol e francês fluente.</li><br />
+                        <li><b>Idiomas</b>: Inglês, espanhol e francês fluentes.</li><br />
                     </ul>
                     <h2><span className="decorative-pink">-</span> Projetos <span className="decorative-pink">-</span></h2>
                     <ul>
