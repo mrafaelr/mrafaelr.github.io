@@ -6,7 +6,7 @@ export default function Nav() {
         <nav>
           <ul id="nav">
             <li><a href="#bio" id="">Home</a></li>
-            <li><a href="#resume">Currículo</a></li>
+            <li><a href="#cv">Currículo</a></li>
             <li><a href="">Projetos</a></li>
           </ul>
           <div id="social-medial-links">

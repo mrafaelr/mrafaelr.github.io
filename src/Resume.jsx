@@ -4,7 +4,7 @@ import "./Resume.css"
 
 export default function Resume() {
     return (
-        <section >
+        <section id="cv">
             <h1 id="cv-title">Curriculum vitae</h1>
             <div id="resume">
                 <div className="resume-column">
@@ -25,7 +25,7 @@ export default function Resume() {
                             implementação e manutenção de eficientes pipelines de processamento 
                             de dados em Python, garantindo a qualidade e integridade dos dados 
                             em todo o processo. Ao aplicar minhas habilidades analíticas e 
-                            conhecimentos técnicos, obtive resultados ignificativos ao 
+                            conhecimentos técnicos, obtive resultados significativos ao 
                             identificar padrões e insights relevantes para aprimorar as 
                             estratégias de tomada de decisão da equipe.
                         </li><br />
