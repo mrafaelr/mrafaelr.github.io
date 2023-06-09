@@ -19,8 +19,8 @@ function Bio() {
           para aprender e crescer, e estou confiante de que minha paixão, conhecimento e 
           habilidades me tornam um profissional inteligente, dedicado e capaz de contribuir 
           de forma significativa em um ambiente de trabalho inspirador.</p>
-        <p>Venha conhecer mais sobre mim no meu <a href="#cv">currículo</a></p>
-        <p>ou dê uma olhada no meu <a href="">portfólio</a></p>
+        <p>Venha conhecer mais sobre mim no meu<a href="#cv">currículo</a></p>
+        <p>ou dê uma olhada no meu<a href="">portfólio</a></p>
       </div>
     );
   }
