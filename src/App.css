@@ -6,20 +6,16 @@
   width: 100vw;
 }
 
-#ball1 {
-  width: 550px;
-  height: 550px;
-  border-radius: 100%;
-  border: 1px solid white;
-  position: fixed;
-  z-index: -1;
-}
-
 body {
   background-color: #1D1B25;
   color: #ffffff;
   font-family: "Ubuntu", sans;
-  z-index: -2;
+  position: relative;
+}
+
+#view {
+  position: relative;
+  z-index: 2;
 }
 
 hr {
@@ -37,22 +33,20 @@ hr {
     width: 100vw;
     margin: 0;
     padding: 0;
+    position: absolute;
   }
   
-  #ball1 {
-    width: 550px;
-    height: 550px;
-    border-radius: 100%;
-    border: 1px solid white;
-    position: fixed;
-    z-index: -1;
+  #view {
+    position: relative;
+    z-index: 2;
   }
   
   body {
     background-color: #1D1B25;
     color: #ffffff;
     font-family: "Ubuntu", sans;
-    z-index: -2;
+    z-index: 0;
+    position: relative;
   }
   
   hr {

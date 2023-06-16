@@ -1,0 +1,19 @@
+#decoration {
+    position: fixed;
+    z-index: 1;
+    margin-top: 30px;
+    width: 99vw;
+    left: 1vw;
+}
+
+.decoration-row {
+    margin: 0;
+    padding: 0;
+}
+
+.decoration-row>svg {
+    margin: 0;
+    padding: 0;
+    width: 18vw;
+    height: 18vw;
+}
