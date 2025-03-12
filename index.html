@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="icon"
+      type="image/svg"
+      sizes="32x32"
+      href="images/favicon-32x32.svg"
+    />
+    <link
+      rel="icon"
+      type="image/svg"
+      sizes="16x16"
+      href="images/favicon-16x16.svg"
+    />
+    <link rel="manifest" href="site.webmanifest" />
+    <title>Rafael M. R.</title>
+  </head>
+
+  <body>
+    <header>
+      <div id="main-header-content">
+        <div id="profile-picture-container">
+          <img src="images/profile.png" alt="" id="profile-picture" />
+        </div>
+        <div id="header-title-and-links">
+          <h1 id="title">Rafael M. Rodrigues</h1>
+          <h2 id="subtitle"></h2>
+          <ul>
+            <li><a href="http://">ResearchGate</a></li>
+            <li><a href="" id="linkedin-link">LinkedIn</a></li>
+            <li><a href="https://github.com/mrafaelr">GitHub</a></li>
+          </ul>
+        </div>
+        <div>
+          <button id="language-toggle" onclick="toggleLanguage()"></button>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li>
+            <button
+              id="section-toggle-about-me"
+              class="nav-button"
+              onclick="toggleSection('about-me')"
+            ></button>
+          </li>
+          <li>
+            <button
+              id="section-toggle-academic-experience"
+              class="nav-button"
+              onclick="toggleSection('academic-experience')"
+            ></button>
+          </li>
+          <li>
+            <button
+              id="section-toggle-professional-experience"
+              class="nav-button"
+              onclick="toggleSection('professional-experience')"
+            ></button>
+          </li>
+          <li>
+            <button
+              id="section-toggle-projects"
+              class="nav-button"
+              onclick="toggleSection('projects')"
+            ></button>
+          </li>
+          <li>
+            <button
+              id="section-toggle-publications"
+              class="nav-button"
+              onclick="toggleSection('publications')"
+            ></button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about-me">
+        <h2 id="about-me-title"></h2>
+        <p id="about-me-content"></p>
+      </section>
+
+      <section id="academic-experience">
+        <h2 id="academic-experience-title"></h2>
+        <p id="academic-experience-content"></p>
+        <h2 id="research-interests-title"></h2>
+        <p id="research-interests-content"></p>
+      </section>
+
+      <section id="professional-experience">
+        <h2 id="professional-experience-title"></h2>
+        <p id="professional-experience-content"></p>
+      </section>
+
+      <section id="projects">
+        <h2 id="projects-title"></h2>
+        <p id="projects-content"></p>
+      </section>
+
+      <section id="publications">
+        <h2 id="publications-title"></h2>
+        <p id="publications-content"></p>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
