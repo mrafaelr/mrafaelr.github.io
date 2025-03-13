@@ -4,7 +4,7 @@ const translations = {
 
         languageToggle: "🇧🇷 Português",
 
-        subtitle: "Software Developer (Spring Boot + Angular) <br/>\
+        subtitle: "Full Stack Web Developer <br/>\
         Software Requirements Engineer",
 
         aboutMeTitle: "About Me",
@@ -75,8 +75,8 @@ const translations = {
 
         languageToggle: "🇺🇸 English ",
 
-        subtitle: "Desenvolvedor full stack (Spring boot + Angular) <br/>\
-        Engenheiro de requisitos",
+        subtitle: "Desenvolvedor Web Full Stack <br/>\
+        Engenheiro de Requisitos",
 
         aboutMeTitle: "Sobre Mim",
         aboutMeContent: "\
