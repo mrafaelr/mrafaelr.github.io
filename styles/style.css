@@ -6,13 +6,6 @@
   
   /* Laptops & small desktops */
   @media (min-width: 900px) {
-    body {
-      font-size: 20px;
-    }
-  }
-  
-  /* Large desktops */
-  @media (min-width: 1200px) {
     #main-header-content {
         height: 25vh;
         display: flex;
